@@ -11,7 +11,6 @@ import type { Movie } from '../../types/movie';
 import styles from './App.module.css';
 import Pagination from '../Pagination/Pagination';
 
-
 export default function App() {
   const [query, setQuery] = useState('');
   const [page, setPage] = useState(1);
